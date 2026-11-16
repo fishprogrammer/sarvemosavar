@@ -114,14 +114,14 @@ window.SARVEMOSAVAR_SEO = {
     }
   ],
   "notes": [
+    "Validate Fix check 2026-11-16 19:46 — ۴۰۴ PENDING ۵۷ · CNI PENDING ۱۰۹ · بک‌لایت هنوز ۴۰۴ زنده",
     "Audit sync 2026-11-16 19:19 — 17 files",
     "Full audit + GSC xlsx 2026-11-16 19:19 — نمره ۶۸ · Indexed 45 · کلیک 145",
     "فازها به ۶ فاز تا ۲۰ اسفند گسترش یافت (۰ انجام‌شده · ۱ جاری · ۲–۵ برنامه‌ای)",
     "خلاصه SEO از کنسول+اکسپورت ۱۶/۱۱ بازنویسی شد",
     "CNI ۱۰۹ / Alternate ۷۰ / ۴۰۴ ۵۷ · Validate Started برای CNI و ۴۰۴",
     "sitemap Success ۲۷ · Validate Fix: ۴۰۴=Started · CNI۱۱۲=Started",
-    "۶/۷ بلاگ on Google · reflective Request indexing · PrintShop/titles/links لایو",
-    "Progress sync 2026-11-15 16:56 — PrintShop+titles+CNI links لایو؛ Validate Fix CNI ۱۱۲ شروع شد"
+    "۶/۷ بلاگ on Google · reflective Request indexing · PrintShop/titles/links لایو"
   ],
   "updatedAt": "2026-11-16T19:19:54+03:30",
   "lastAuditSync": {
@@ -666,8 +666,8 @@ window.SARVEMOSAVAR_SEO = {
       "agent": "seo-technical",
       "priority": "critical",
       "order": 0,
-      "status": "done",
-      "done": true
+      "status": "active",
+      "done": false
     },
     {
       "id": "u1-404-map",
@@ -801,8 +801,8 @@ window.SARVEMOSAVAR_SEO = {
       "agent": "seo-google",
       "priority": "high",
       "order": 16,
-      "status": "done",
-      "done": true
+      "status": "active",
+      "done": false
     },
     {
       "id": "u12-validate-gsc",
@@ -810,8 +810,8 @@ window.SARVEMOSAVAR_SEO = {
       "agent": "seo-google",
       "priority": "medium",
       "order": 12,
-      "status": "done",
-      "done": true
+      "status": "active",
+      "done": false
     }
   ],
   "gscIndexing": {
@@ -848,13 +848,19 @@ window.SARVEMOSAVAR_SEO = {
         "reason": "Not found (404)",
         "pages": 57,
         "validation": "Started",
-        "source": "Website"
+        "source": "Website",
+        "pending": 57,
+        "failed": 0,
+        "started": "2026-11-14"
       },
       {
         "reason": "Crawled - currently not indexed",
         "pages": 109,
         "validation": "Started",
-        "source": "Google systems"
+        "source": "Google systems",
+        "pending": 109,
+        "failed": 0,
+        "started": "2026-11-15"
       }
     ],
     "notFoundFirstDetected": "2026-10-17",
@@ -903,7 +909,8 @@ window.SARVEMOSAVAR_SEO = {
       "startedAt": "2026-11-14",
       "status": "Started",
       "affected": 55
-    }
+    },
+    "validateCheckedAt": "2026-11-16T19:46:22+03:30"
   },
   "phaseDetails": {
     "0": {
@@ -1419,7 +1426,9 @@ window.SARVEMOSAVAR_SEO = {
         "priority": "high",
         "canAuto": false,
         "done": false,
-        "status": "pending"
+        "status": "active",
+        "lastCheck": "2026-11-16T19:46:22+03:30",
+        "note": "۴۰۴: PENDING ۵۷ · CNI: PENDING ۱۰۹ · Affected پایین نیامده · بک‌لایت هنوز ۴۰۴"
       },
       {
         "text": "Product/Offer + Breadcrumb روی همه PDPها",
@@ -1458,5 +1467,40 @@ window.SARVEMOSAVAR_SEO = {
         "status": "pending"
       }
     ]
+  },
+  "gscValidateFix": {
+    "checkedAt": "2026-11-16T19:46:22+03:30",
+    "checkedAtFa": "2026/11/16 19:46",
+    "gscLastUpdate": "2026-11-13",
+    "indexed": 45,
+    "notIndexed": 291,
+    "items": [
+      {
+        "reason": "Not found (404)",
+        "affected": 57,
+        "validation": "Started",
+        "started": "2026-11-14",
+        "pending": 57,
+        "failed": 0,
+        "passed": 0,
+        "note": "Affected هنوز ۵۷ · PENDING ۵۷ · FAILED ۰. نمونه زنده: /product/بک-لایت/ هنوز ۴۰۴ واقعی."
+      },
+      {
+        "reason": "Crawled - currently not indexed",
+        "affected": 109,
+        "validation": "Started",
+        "started": "2026-11-15",
+        "pending": 109,
+        "failed": 0,
+        "passed": 0,
+        "note": "PENDING ۱۰۹ · FAILED ۰. نمونه‌ها: بلاگ واقعی + facet قدیمی."
+      }
+    ],
+    "blockers": [
+      "/product/بک-لایت/ هنوز HTTP 404 (PDP لایو: /shop/products/بک-لایت) — در redirect map نیست",
+      "/product/لیبل-ژله‌ای/ → /shop در حالی که PDP /shop/products/لیبل-ژله‌ای الان ۲۰۰ می‌دهد",
+      "Affected تا recrawl بعدی Google پایین نمی‌آید؛ Last update هنوز ۱۳/۱۱"
+    ],
+    "verdict": "Validate Fix برای ۴۰۴ و CNI هنوز Started/PENDING است و Affected پایین نیامده. برای ۴۰۴ یک URL شکستهٔ زنده (بک‌لایت) باید فیکس شود وگرنه احتمال Failed بالا می‌رود."
   }
 };

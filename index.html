@@ -1622,7 +1622,12 @@
     }
 
     function phaseStatusFa(st) {
-      return { done: "انجام شد", active: "جاری", upcoming: "آینده" }[st] || st;
+      return {
+        done: "انجام شد",
+        active: "جاری",
+        upcoming: "آینده",
+        planned: "آینده",
+      }[st] || st;
     }
 
     function getPhaseDetail(n) {
@@ -1916,17 +1921,24 @@
         } else {
           tasks.innerHTML = list
             .map((t) => {
+              const done = t.done === true || t.status === "done";
               const pri =
                 t.priority === "critical" ? "بحرانی" : t.priority === "high" ? "بالا" : "متوسط";
               const auto = t.canAuto
                 ? '<span class="badge ok" style="margin-right:0.35rem">قابل اجرا از پلاگین</span>'
                 : '<span class="badge warn" style="margin-right:0.35rem">دستی/تم</span>';
-              return `<div class="action" style="cursor:default">
+              const stBadge = done
+                ? '<span class="badge done">انجام شد</span>'
+                : '<span class="badge todo">باقی مانده</span>';
+              return `<div class="action ${done ? "done" : ""}" style="cursor:default">
                 <div>
                   <p class="action-title">${t.text || ""}</p>
                   <p class="action-meta">${auto} ${t.area || ""} · ایجنت <code>${t.agent || "—"}</code></p>
                 </div>
-                <div class="action-side"><span class="badge ${t.priority || "medium"}">${pri}</span></div>
+                <div class="action-side">
+                  ${stBadge}
+                  <span class="badge ${t.priority || "medium"}">${pri}</span>
+                </div>
               </div>`;
             })
             .join("");
@@ -1944,13 +1956,24 @@
       }
       mount.innerHTML = list
         .map((u) => {
+          const done = u.done === true || u.status === "done";
+          const active = u.status === "active";
           const pri = u.priority === "critical" ? "بحرانی" : u.priority === "high" ? "بالا" : "متوسط";
-          return `<div class="action" style="cursor:default">
+          const stBadge = done
+            ? '<span class="badge done">انجام شد</span>'
+            : active
+              ? '<span class="badge high">جاری</span>'
+              : '<span class="badge todo">باقی مانده</span>';
+          return `<div class="action ${done ? "done" : ""}" style="cursor:default">
             <div>
               <p class="action-title">${u.text || ""}</p>
               <p class="action-meta">ایجنت <code>${u.agent || "—"}</code></p>
+              <span class="action-status ${done ? "" : "pending"}">${done ? "✓ انجام شد" : active ? "در حال انجام" : "در انتظار انجام"}</span>
             </div>
-            <div class="action-side"><span class="badge ${u.priority || "medium"}">${pri}</span></div>
+            <div class="action-side">
+              ${stBadge}
+              <span class="badge ${u.priority || "medium"}">${pri}</span>
+            </div>
           </div>`;
         })
         .join("");

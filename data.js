@@ -166,79 +166,92 @@ window.SARVEMOSAVAR_SEO = {
       "id": "p0-export-404",
       "text": "اکسپورت کامل ۵۵ URL از GSC Not found (404)",
       "status": "done",
-      "priority": "P0"
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-redirect-map",
       "text": "مپینگ ۴۰۴: 50 آماده / 5 نیاز به slug",
-      "status": "partial",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-301-woo-product",
       "text": "پیاده‌سازی ۳۰۱ برای الگوی /product/{slug}/",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-301-woo-cat",
       "text": "پیاده‌سازی ۳۰۱ برای /product-category/* و /shop/page/* با query ووکامرس",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-301-misc",
       "text": "ریدایرکت /چاپ-سرو-مصور/ و FAQ و my-account",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-canonical-pdp",
       "text": "اصلاح canonical محصول: با URL واقعی /shop/products/... یکی شود",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-noindex-review",
       "text": "ممیزی ۲۶ noindex و جدا کردن پول از سیستمی",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-home-seo",
       "text": "فیکس خانه: description، H1، schema سازمان، LCP",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-sitemap-gsc",
       "text": "ارسال/بازرسی sitemap.xml در GSC و افزودن URLهای مهم گم‌شده",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p0-validate-404",
       "text": "Validate fix برای 404 بعد از استقرار ریدایرکت",
-      "status": "open",
-      "priority": "P0"
+      "status": "done",
+      "priority": "P0",
+      "done": true
     },
     {
       "id": "p1-cni-internal-links",
       "text": "لینک داخلی به ۷ بلاگ CNI از خانه/فروشگاه — لایو OK (facetها با ۳۰۱)",
       "status": "done",
-      "priority": "P1"
+      "priority": "P1",
+      "done": true
     },
     {
       "id": "p1-unique-titles",
       "text": "Title/description یکتا برای shop/blog/contact/about — push 24c32d2؛ تأیید بعد از دیپلوی",
       "status": "done",
-      "priority": "P1"
+      "priority": "P1",
+      "done": true
     },
     {
       "id": "p1-localbusiness",
       "text": "LocalBusiness/PrintShop + telephone + آدرس اصفهان — لایو تأیید شد",
       "status": "done",
-      "priority": "P1"
+      "priority": "P1",
+      "done": true
     },
     {
       "id": "p1-product-schema",
@@ -652,119 +665,153 @@ window.SARVEMOSAVAR_SEO = {
       "text": "۰) Edge proxy وصل شد (commit 2e94a38) + GSC Validate Fix برای ۵۵×404 شروع شد ۱۱/۱۴ — بعد از دیپلوی Coolify با curl -I تأیید ۳۰۱",
       "agent": "seo-technical",
       "priority": "critical",
-      "order": 0
+      "order": 0,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u1-404-map",
       "text": "۱) قوانین CRM (~۹۶) + resolve API OK؛ GSC validation در جریان — پس از deploy زنده بودن ۳۰۱ را چک کنید",
       "agent": "seo-technical",
       "priority": "critical",
-      "order": 1
+      "order": 1,
+      "status": "active",
+      "done": false
     },
     {
       "id": "u2-301-product",
       "text": "۲) ✅ ریدایرکت /product/* → PDPهای ۱۱ محصولی /shop/products/… زنده و ۳۰۱ تأیید شد",
       "agent": "seo-technical",
       "priority": "critical",
-      "order": 2
+      "order": 2,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u3-301-category",
       "text": "۳) ✅ ریدایرکت /product-category/* و /shop/page/* → /shop زنده",
       "agent": "seo-technical",
       "priority": "critical",
-      "order": 3
+      "order": 3,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u4-301-pages",
       "text": "۴) ✅ صفحات محتوایی (/my-account، FAQ، چاپ-سرو-مصور، home) ۳۰۱ تأیید شد",
       "agent": "seo-technical",
       "priority": "critical",
-      "order": 4
+      "order": 4,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u5-param-cleanup",
       "text": "۵) ✅ proxy: strip per_row/per_page/shop_view → /shop + kill /feed (caf8316) — GSC CNI ۱۱۲تایی",
       "agent": "seo-technical",
       "priority": "high",
-      "order": 5
+      "order": 5,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u6-canonical-align",
       "text": "۶) ✅ canonical PDPها /shop/products/… شد (دیگر /products/ نیست) — commit 5324762",
       "agent": "seo-schema",
       "priority": "critical",
-      "order": 6
+      "order": 6,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u7-noindex-audit",
       "text": "۷) ✅ /shop indexable شد؛ dashboard/cart/checkout/login noindex — GSC Alternate canonical را بعداً Validate کنید",
       "agent": "seo-technical",
       "priority": "high",
-      "order": 7
+      "order": 7,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u8-crawled-not-indexed",
       "text": "۸) ✅ CNI: Request indexing برای ۷ بلاگ انجام شد (۱۱/۱۴) — junk facets با ۳۰۱ از این باکت خارج می‌شوند",
       "agent": "seo-content",
       "priority": "high",
-      "order": 8
+      "order": 8,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u9-sitemap-submit",
       "text": "۹) ✅ sitemap.xml در GSC Success (۲۶–۲۷ URL: ۱۱ PDP + ۱۳ بلاگ) — resubmit ۱۱/۱۴",
       "agent": "seo-sitemap",
       "priority": "high",
-      "order": 9
+      "order": 9,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u10-home-meta",
       "text": "۱۰) ✅ خانه: description/OG/H1 خدمت‌محور لایو تأیید شد",
       "agent": "seo-page",
       "priority": "critical",
-      "order": 10
+      "order": 10,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u11-lcp",
       "text": "۱۱) ⏸ LCP بنر موقتی — لوگو ۴۸۰w آپلود شد؛ بهینه‌سازی اسلایدر بعد از بنر دائمی",
       "agent": "seo-performance",
       "priority": "high",
-      "order": 11
+      "order": 11,
+      "status": "pending",
+      "done": false
     },
     {
       "id": "u13-unique-titles",
       "text": "۱۳) ✅ title یکتا blog/about/contact/shop — لایو تأیید شد",
       "agent": "seo-page",
       "priority": "high",
-      "order": 13
+      "order": 13,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u14-localbusiness",
       "text": "۱۴) ✅ PrintShop JSON-LD لایو: تلفن + آدرس اصفهان + geo تأیید شد",
       "agent": "seo-schema",
       "priority": "high",
-      "order": 14
+      "order": 14,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u15-cni-internal-links",
       "text": "۱۵) ✅ لینک ۷ بلاگ CNI از خانه/فروشگاه لایو تأیید شد",
       "agent": "seo-content",
       "priority": "high",
-      "order": 15
+      "order": 15,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u16-cni-validate-gsc",
       "text": "۱۶) ✅ GSC Validate Fix برای Crawled-not-indexed (۱۱۲) — Started 15/11 · PENDING",
       "agent": "seo-google",
       "priority": "high",
-      "order": 16
+      "order": 16,
+      "status": "done",
+      "done": true
     },
     {
       "id": "u12-validate-gsc",
       "text": "۱۲) ✅ Validate Fix برای Not found (404) در GSC شروع شد (۱۱/۱۴)",
       "agent": "seo-google",
       "priority": "medium",
-      "order": 12
+      "order": 12,
+      "status": "done",
+      "done": true
     }
   ],
   "gscIndexing": {
@@ -961,17 +1008,17 @@ window.SARVEMOSAVAR_SEO = {
         {
           "id": "c0-canon",
           "label": "canonical PDP اصلاح شد",
-          "done": false
+          "done": true
         },
         {
           "id": "c0-home",
           "label": "meta/H1/schema خانه اصلاح شد",
-          "done": false
+          "done": true
         },
         {
           "id": "c0-validate",
           "label": "Validate fix برای 404 زده شد",
-          "done": false
+          "done": true
         }
       ]
     },
@@ -1370,35 +1417,45 @@ window.SARVEMOSAVAR_SEO = {
         "area": "GSC Pages",
         "agent": "seo-google",
         "priority": "high",
-        "canAuto": false
+        "canAuto": false,
+        "done": false,
+        "status": "pending"
       },
       {
         "text": "Product/Offer + Breadcrumb روی همه PDPها",
         "area": "فروانت",
         "agent": "seo-schema",
         "priority": "high",
-        "canAuto": true
+        "canAuto": true,
+        "done": false,
+        "status": "pending"
       },
       {
         "text": "بهبود CTR فرصت‌ها: لیبل dtf، خرید لیبل ژله‌ای، uvdtf، چاپ uv dtf اصفهان",
         "area": "محتوا/title",
         "agent": "seo-content",
         "priority": "high",
-        "canAuto": true
+        "canAuto": true,
+        "done": false,
+        "status": "pending"
       },
       {
         "text": "بررسی سطل Alternate canonical (۷۰) و Discovered CNI (۴)",
         "area": "GSC Indexing",
         "agent": "seo-technical",
         "priority": "medium",
-        "canAuto": false
+        "canAuto": false,
+        "done": false,
+        "status": "pending"
       },
       {
         "text": "LCP خانه بعد از بنر دائمی",
         "area": "Performance",
         "agent": "seo-performance",
         "priority": "medium",
-        "canAuto": true
+        "canAuto": true,
+        "done": false,
+        "status": "pending"
       }
     ]
   }

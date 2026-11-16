@@ -1,7 +1,7 @@
 /* Claude SEO — تب آنالیز: بارگذاری تازه با هر رفرش صفحه */
 (function () {
-  const DEFAULT_URL = "https://baradaranebabaei.ir";
-  const CMD_KEY = "babaei-audit-cmd";
+  const DEFAULT_URL = "https://sarvemosavar.ir";
+  const CMD_KEY = "sarvemosavar-audit-cmd";
 
   const COMMANDS = [
     {
@@ -44,7 +44,7 @@
     {
       id: "local",
       label: "لوکال SEO",
-      desc: "GBP، NAP، فروشگاه اصفهان (کهندژ)",
+      desc: "GBP، NAP، چاپ دیجیتال اصفهان",
       finding: "local.md",
       icon: "📍",
     },
@@ -141,7 +141,7 @@
   }
 
   function fallbackHtml(id) {
-    const D = window.BABAEI_SEO;
+    const D = window.SARVEMOSAVAR_SEO;
     if (!D) return "<p>دادهٔ پایه در دسترس نیست.</p>";
 
     if (id === "audit") {
@@ -257,8 +257,8 @@
           ok: true,
           mode: "static",
           findings: [],
-          summary: window.BABAEI_SEO
-            ? { health_score: window.BABAEI_SEO.score.overall }
+          summary: window.SARVEMOSAVAR_SEO
+            ? { health_score: window.SARVEMOSAVAR_SEO.score.overall }
             : null,
         };
       }
@@ -333,7 +333,7 @@
     const hasReport = data && data.exists;
     const score =
       status?.summary?.health_score ??
-      (window.BABAEI_SEO ? window.BABAEI_SEO.score.overall : "—");
+      (window.SARVEMOSAVAR_SEO ? window.SARVEMOSAVAR_SEO.score.overall : "—");
 
     meta.innerHTML = IS_CLIENT
       ? `
@@ -461,7 +461,7 @@
     });
   }
 
-  window.BabaeiAudit = { refresh, selectCommand };
+  window.SarveAudit = { refresh, selectCommand };
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

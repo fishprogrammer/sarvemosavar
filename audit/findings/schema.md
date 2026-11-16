@@ -1,7 +1,15 @@
 # Schema
 
-**Score:** 75
+**Score:** 60
 
-## [Info] اسکیما سازمان/لوکال روی خانه
+## [Info] Organization/اسکیما روی خانه
 
-MotorcycleDealer/Organization دیده شد
+LD+JSON دیده شد
+
+## [Critical] Organization.description اشتباه/پنل
+
+به خدمت چاپ دیجیتال تغییر دهید
+
+## [High] LocalBusiness + telephone در schema
+
+NAP ساخت‌یافته اضافه کنید

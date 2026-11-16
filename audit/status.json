@@ -1,32 +1,30 @@
 {
-  "ok": true,
-  "mode": "static",
-  "generated_at": "2026-10-28T14:19:05+03:30",
+  "updatedAt": "2026-11-15T16:56:28+03:30",
+  "source": "E:\\84-sarve-mosavar\\claude-seo\\claude-seo\\sarvemosavar.ir-audit",
   "findings": [
     "ACTION-PLAN.md",
     "audit-data.json",
     "FULL-AUDIT-REPORT.md",
     "status.json",
-    "findings/competitor-babaeibike-deep.json",
-    "findings/competitor-babaeibike-raw.json",
-    "findings/competitor-babaeibike-urls.json",
-    "findings/competitor-babaeibike.md",
-    "findings/competitor-redfox-deep.json",
-    "findings/competitor-redfox-raw.json",
-    "findings/competitor-redfox-urls.json",
-    "findings/competitor-redfox.md",
+    "findings/browser-console.md",
     "findings/content.md",
-    "findings/gsc-2026-10-28-seo-summary.md",
+    "findings/gsc-2026-11-14-seo-summary.md",
+    "findings/gsc-404-export.md",
+    "findings/gsc-crawled-not-indexed-2026-11-14.md",
+    "findings/gsc-indexing-404-migration.md",
+    "findings/how-to-wire-edge-redirects.md",
     "findings/local.md",
     "findings/page.md",
     "findings/performance.md",
+    "findings/redirects-applied-11-products.md",
     "findings/schema.md",
-    "findings/sitemap.md",
-    "findings/technical-keyurls-probe.json",
-    "findings/technical-live-probe.json",
+    "findings/seo-studio-live-redirects.md",
     "findings/technical.md"
   ],
-  "summary": {
-    "health_score": 76
-  }
+  "summaryKeys": [
+    "summary",
+    "categories",
+    "action_plan",
+    "artifacts"
+  ]
 }

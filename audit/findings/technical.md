@@ -1,7 +1,15 @@
 # Technical
 
-**Score:** 70
+**Score:** 67
 
-## [Info] Pretty sitemap کار می‌کند
+## [Info] sitemap.xml سالم است
 
-/sitemap_index.xml XML سالم است
+/sitemap.xml XML OK
+
+## [Info] robots.txt اعلام Sitemap دارد
+
+Sitemap: https://sarvemosavar.ir/sitemap.xml
+
+## [High] LCP خانه ضعیف (~6s در کنسول)
+
+اسلایدر/لوگو را فشرده کنید

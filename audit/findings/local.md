@@ -1,19 +1,11 @@
 # Local
 
-**Score:** 88
+**Score:** 58
 
-## [Info] سیگنال لوکال در LD+JSON
+## [Medium] تلفن در HTML خام خانه کم‌رنگ
 
-NAP از Rank Math/اسکیما
-
-## [Info] تلفن NAP در صفحه خانه
-
-09137122400/ثابت دیده شد
+NAP فوتر ثابت
 
 ## [Info] صفحه تماس ۲۰۰
 
-https://baradaranebabaei.ir/contact/
-
-## [Info] لندینگ کهندژ زنده است
-
-https://baradaranebabaei.ir/forushgah-baradaran-babaei-kohandezh/
+https://sarvemosavar.ir/contact

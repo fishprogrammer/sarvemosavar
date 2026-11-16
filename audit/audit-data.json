@@ -1,75 +1,125 @@
 {
   "summary": {
-    "health_score": 76,
-    "business_type": "Local ecommerce store — motorcycle & bicycle retail + installment (Isfahan)",
-    "audited_at": "2026-10-28",
-    "domain": "https://baradaranebabaei.ir/",
+    "health_score": 60,
+    "business_type": "E-commerce print & label studio — digital print / design (Isfahan)",
+    "audited_at": "2026-11-14",
+    "domain": "https://sarvemosavar.ir/",
     "top_findings": [
-      "مشکل Critical/High جدیدی در پروب زنده دیده نشد"
+      "LCP خانه ضعیف (~6s در کنسول)",
+      "خانه بدون H1",
+      "meta description خانه را تأیید کنید",
+      "Organization.description اشتباه/پنل",
+      "LocalBusiness + telephone در schema"
     ],
     "quick_wins": [
-      "ادامه ریتم محتوا و مانیتور GSC هفتگی"
+      "LCP خانه ضعیف (~6s در کنسول)",
+      "خانه بدون H1",
+      "LocalBusiness + telephone در schema",
+      "تلفن در HTML خام خانه کم‌رنگ"
     ],
     "category_scores": {
-      "technical": 70,
-      "content": 76,
-      "page": 73,
-      "schema": 75,
-      "local": 88
+      "technical": 67,
+      "content": 75,
+      "page": 37,
+      "schema": 60,
+      "local": 58
     },
     "gsc_baseline": {
-      "exportedAt": "2026-10-28",
+      "exportedAt": "2026-11-14",
       "dateFilter": "Last 3 months",
-      "clicks": 4312,
-      "impressions": 68620,
-      "ctr": 0.0628,
-      "avgPosition": 7.34
+      "clicks": 120,
+      "impressions": 1103,
+      "ctr": 0.1088,
+      "avgPosition": 24.67,
+      "queries": 65,
+      "pages": 37
     }
   },
   "categories": [
     {
       "name": "Technical SEO",
-      "score": 70,
+      "score": 67,
       "what_works": [
-        "Pretty sitemap کار می‌کند"
+        "sitemap.xml سالم است",
+        "robots.txt اعلام Sitemap دارد"
       ],
-      "findings": []
+      "findings": [
+        {
+          "title": "LCP خانه ضعیف (~6s در کنسول)",
+          "severity": "High",
+          "description": "اسلایدر/لوگو را فشرده کنید",
+          "recommendation": "اسلایدر/لوگو را فشرده کنید"
+        }
+      ]
     },
     {
       "name": "Content / E-E-A-T",
-      "score": 76,
+      "score": 75,
       "what_works": [
-        "کوئری برند بابایی دوچرخه در خانه"
+        "درباره ما در دسترس",
+        "فروشگاه ۲۰۰",
+        "وبلاگ ۲۰۰",
+        "نمونه PDP زنده",
+        "GSC کلیک=120"
       ],
       "findings": []
     },
     {
       "name": "Page SEO",
-      "score": 73,
+      "score": 37,
       "what_works": [
-        "H1 خانه موجود است",
-        "درباره ما در دسترس"
+        "Title خانه برند/خدمت دارد"
       ],
-      "findings": []
+      "findings": [
+        {
+          "title": "خانه بدون H1",
+          "severity": "High",
+          "description": "H1 خدمت/برند بگذارید",
+          "recommendation": "H1 خدمت/برند بگذارید"
+        },
+        {
+          "title": "meta description خانه را تأیید کنید",
+          "severity": "Critical",
+          "description": "در ممیزی کنسول خالی بود — اگر هنوز خالی است اضافه کنید",
+          "recommendation": "در ممیزی کنسول خالی بود — اگر هنوز خالی است اضافه کنید"
+        }
+      ]
     },
     {
       "name": "Schema",
-      "score": 75,
+      "score": 60,
       "what_works": [
-        "اسکیما سازمان/لوکال روی خانه"
+        "Organization/اسکیما روی خانه"
       ],
-      "findings": []
+      "findings": [
+        {
+          "title": "Organization.description اشتباه/پنل",
+          "severity": "Critical",
+          "description": "به خدمت چاپ دیجیتال تغییر دهید",
+          "recommendation": "به خدمت چاپ دیجیتال تغییر دهید"
+        },
+        {
+          "title": "LocalBusiness + telephone در schema",
+          "severity": "High",
+          "description": "NAP ساخت‌یافته اضافه کنید",
+          "recommendation": "NAP ساخت‌یافته اضافه کنید"
+        }
+      ]
     },
     {
       "name": "Local SEO",
-      "score": 88,
+      "score": 58,
       "what_works": [
-        "سیگنال لوکال در LD+JSON",
-        "تلفن NAP در صفحه خانه",
-        "صفحه تماس ۲۰۰",
-        "لندینگ کهندژ زنده است"
+        "صفحه تماس ۲۰۰"
       ],
-      "findings": []
+      "findings": [
+        {
+          "title": "تلفن در HTML خام خانه کم‌رنگ",
+          "severity": "Medium",
+          "description": "NAP فوتر ثابت",
+          "recommendation": "NAP فوتر ثابت"
+        }
+      ]
     }
   ],
   "action_plan": {
@@ -77,18 +127,25 @@
       {
         "name": "Phase 1: Critical Fixes",
         "timeframe": "Week 1",
-        "items": []
+        "items": [
+          "meta description خانه را تأیید کنید",
+          "Organization.description اشتباه/پنل"
+        ]
       },
       {
         "name": "Phase 2: High-Impact Improvements",
         "timeframe": "Weeks 2-3",
-        "items": []
+        "items": [
+          "LCP خانه ضعیف (~6s در کنسول)",
+          "خانه بدون H1",
+          "LocalBusiness + telephone در schema"
+        ]
       },
       {
         "name": "Phase 3: Content & Authority",
         "timeframe": "Month 2",
         "items": [
-          "ادامه صف شکست ردفوکس ۱/روز",
+          "گسترش کلاستر محتوای لیبل/چاپ",
           "تقویت صفحات فرصت GSC"
         ]
       },
@@ -97,7 +154,7 @@
         "timeframe": "Ongoing",
         "items": [
           "Import هفتگی GSC",
-          "مانیتور URLهای پول ردفوکس"
+          "مانیتور LCP و schema خانه"
         ]
       }
     ]
@@ -107,120 +164,97 @@
     "screenshots_dir": "screenshots/",
     "probe": {
       "home": {
-        "url": "https://baradaranebabaei.ir/",
+        "url": "https://sarvemosavar.ir/",
         "status": 200,
-        "len": 111835,
-        "h1": 1,
-        "title": "موتورسیکلت و دوچرخه برادران بابایی",
+        "len": 53054,
+        "h1": 0,
+        "title": "خدمات طراحی و چاپ دیجیتال | سرو مصور",
         "has_local": true,
-        "has_nap_phone": true,
+        "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8",
-        "title_clean": "موتورسیکلت و دوچرخه برادران بابایی",
-        "babaei_docharkhe": true
+        "content_type": "text/html; charset=utf-8",
+        "title_clean": "خدمات طراحی و چاپ دیجیتال | سرو مصور",
+        "brand_mention": true
       },
       "robots": {
-        "url": "https://baradaranebabaei.ir/robots.txt",
+        "url": "https://sarvemosavar.ir/robots.txt",
         "status": 200,
-        "len": 325,
+        "len": 277,
         "h1": 0,
         "title": "",
         "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/plain; charset=utf-8",
+        "content_type": "text/plain",
         "declares_sitemap": true,
-        "sitemap_line": "Sitemap: https://baradaranebabaei.ir/sitemap_index.xml"
+        "sitemap_line": "Sitemap: https://sarvemosavar.ir/sitemap.xml"
       },
       "sitemap": {
-        "url": "https://baradaranebabaei.ir/sitemap_index.xml",
+        "url": "https://sarvemosavar.ir/sitemap.xml",
         "status": 200,
-        "len": 1076,
+        "len": 4689,
         "h1": 0,
         "title": "",
         "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/xml; charset=UTF-8",
+        "content_type": "application/xml",
         "looks_xml": true
       },
-      "sitemap_alt": {
-        "url": "https://baradaranebabaei.ir/?sitemap=1",
+      "shop": {
+        "url": "https://sarvemosavar.ir/shop",
         "status": 200,
-        "len": 1076,
+        "len": 48156,
         "h1": 0,
-        "title": "",
-        "has_local": false,
+        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
+        "has_local": true,
         "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/xml; charset=UTF-8",
-        "looks_xml": true
+        "content_type": "text/html; charset=utf-8"
       },
-      "motorcycle": {
-        "url": "https://baradaranebabaei.ir/motorcycle/",
+      "blog": {
+        "url": "https://sarvemosavar.ir/blog",
         "status": 200,
-        "len": 64925,
+        "len": 33767,
         "h1": 1,
-        "title": "موتورسیکلت اصفهان | برادران بابایی",
+        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
         "has_local": true,
-        "has_nap_phone": true,
+        "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "bicycle": {
-        "url": "https://baradaranebabaei.ir/bicycle/",
-        "status": 200,
-        "len": 66102,
-        "h1": 1,
-        "title": "بابایی دوچرخه اصفهان | هاب دوچرخه برادران بابایی",
-        "has_local": true,
-        "has_nap_phone": true,
-        "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html; charset=utf-8"
       },
       "contact": {
-        "url": "https://baradaranebabaei.ir/contact/",
+        "url": "https://sarvemosavar.ir/contact",
         "status": 200,
-        "len": 67279,
+        "len": 33516,
         "h1": 0,
-        "title": "تماس با برادران بابایی کهندژ اصفهان",
+        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
         "has_local": true,
-        "has_nap_phone": true,
+        "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html; charset=utf-8"
       },
       "about": {
-        "url": "https://baradaranebabaei.ir/about/",
+        "url": "https://sarvemosavar.ir/about-us",
         "status": 200,
-        "len": 72306,
+        "len": 33600,
         "h1": 0,
-        "title": "درباره بابایی دوچرخه | برادران بابایی کهندژ",
+        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
         "has_local": true,
-        "has_nap_phone": true,
+        "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html; charset=utf-8"
       },
-      "kohandezh": {
-        "url": "https://baradaranebabaei.ir/forushgah-baradaran-babaei-kohandezh/",
+      "product": {
+        "url": "https://sarvemosavar.ir/shop/products/leble-paper",
         "status": 200,
-        "len": 62598,
-        "h1": 2,
-        "title": "فروشگاه برادران بابایی کهندژ | اصفهان",
-        "has_local": true,
-        "has_nap_phone": true,
-        "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "installment": {
-        "url": "https://baradaranebabaei.ir/%d8%ae%d8%b1%db%8c%d8%af-%d8%a7%d9%82%d8%b3%d8%a7%d8%b7%db%8c/",
-        "status": 200,
-        "len": 66746,
+        "len": 45546,
         "h1": 1,
-        "title": "خرید اقساطی دوچرخه و موتورسیکلت | برادران بابایی",
+        "title": "لیبل کاغذی | سرو مصور",
         "has_local": true,
-        "has_nap_phone": true,
+        "has_nap_phone": false,
         "robots_noindex": false,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html; charset=utf-8"
       }
     }
   }

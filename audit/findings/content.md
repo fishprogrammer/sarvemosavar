@@ -4,7 +4,7 @@
 
 ## [Info] درباره ما در دسترس
 
-سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور
+درباره سرو مصور | سرو مصور
 
 ## [Info] فروشگاه ۲۰۰
 
@@ -18,6 +18,6 @@ https://sarvemosavar.ir/blog
 
 https://sarvemosavar.ir/shop/products/leble-paper
 
-## [Info] GSC کلیک=120
+## [Info] GSC کلیک=145
 
 Last 3 months

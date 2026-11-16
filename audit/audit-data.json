@@ -2,7 +2,7 @@
   "summary": {
     "health_score": 60,
     "business_type": "E-commerce print & label studio — digital print / design (Isfahan)",
-    "audited_at": "2026-11-14",
+    "audited_at": "2026-11-16",
     "domain": "https://sarvemosavar.ir/",
     "top_findings": [
       "LCP خانه ضعیف (~6s در کنسول)",
@@ -25,14 +25,12 @@
       "local": 58
     },
     "gsc_baseline": {
-      "exportedAt": "2026-11-14",
+      "exportedAt": "2026-11-16",
       "dateFilter": "Last 3 months",
-      "clicks": 120,
-      "impressions": 1103,
-      "ctr": 0.1088,
-      "avgPosition": 24.67,
-      "queries": 65,
-      "pages": 37
+      "clicks": 145,
+      "impressions": 1547,
+      "ctr": 0.0937,
+      "avgPosition": 25.09
     }
   },
   "categories": [
@@ -60,7 +58,7 @@
         "فروشگاه ۲۰۰",
         "وبلاگ ۲۰۰",
         "نمونه PDP زنده",
-        "GSC کلیک=120"
+        "GSC کلیک=145"
       ],
       "findings": []
     },
@@ -166,7 +164,7 @@
       "home": {
         "url": "https://sarvemosavar.ir/",
         "status": 200,
-        "len": 53054,
+        "len": 53993,
         "h1": 0,
         "title": "خدمات طراحی و چاپ دیجیتال | سرو مصور",
         "has_local": true,
@@ -204,10 +202,10 @@
       "shop": {
         "url": "https://sarvemosavar.ir/shop",
         "status": 200,
-        "len": 48156,
+        "len": 50826,
         "h1": 0,
-        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
-        "has_local": true,
+        "title": "فروشگاه چاپ و لیبل | سرو مصور",
+        "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
         "content_type": "text/html; charset=utf-8"
@@ -215,10 +213,10 @@
       "blog": {
         "url": "https://sarvemosavar.ir/blog",
         "status": 200,
-        "len": 33767,
+        "len": 36285,
         "h1": 1,
-        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
-        "has_local": true,
+        "title": "مجله چاپ و لیبل | سرو مصور",
+        "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
         "content_type": "text/html; charset=utf-8"
@@ -226,10 +224,10 @@
       "contact": {
         "url": "https://sarvemosavar.ir/contact",
         "status": 200,
-        "len": 33516,
+        "len": 36034,
         "h1": 0,
-        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
-        "has_local": true,
+        "title": "تماس با سرو مصور | سرو مصور",
+        "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
         "content_type": "text/html; charset=utf-8"
@@ -237,10 +235,10 @@
       "about": {
         "url": "https://sarvemosavar.ir/about-us",
         "status": 200,
-        "len": 33600,
+        "len": 36098,
         "h1": 0,
-        "title": "سرو مصور — چاپ آنلاین حرفه‌ای | سرو مصور",
-        "has_local": true,
+        "title": "درباره سرو مصور | سرو مصور",
+        "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
         "content_type": "text/html; charset=utf-8"
@@ -248,10 +246,10 @@
       "product": {
         "url": "https://sarvemosavar.ir/shop/products/leble-paper",
         "status": 200,
-        "len": 45546,
+        "len": 47010,
         "h1": 1,
         "title": "لیبل کاغذی | سرو مصور",
-        "has_local": true,
+        "has_local": false,
         "has_nap_phone": false,
         "robots_noindex": false,
         "content_type": "text/html; charset=utf-8"

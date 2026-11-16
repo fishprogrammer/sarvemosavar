@@ -15,17 +15,17 @@ window.SARVEMOSAVAR_SEO = {
     "keywordsTotal": 0,
     "manager": "تیم SEO",
     "phase": 1,
-    "phaseLabel": "فاز ۱ — اسکیما/لوکال + ایندکس‌پذیری",
-    "updatedAtFa": "2026/11/15",
-    "updatedAt": "2026-11-15T17:01:26+03:30",
+    "phaseLabel": "فاز ۱ — ایندکس‌پذیری و اسکیما/لوکال",
+    "updatedAtFa": "2026/11/16",
+    "updatedAt": "2026-11-16T19:19:53+03:30",
     "agentsCount": 6,
-    "workplanNote": "خلاصه GSC ۱۵/۱۱ · Validate Fix · PrintShop · ایندکس ۳۰",
+    "workplanNote": "Audit+GSC ۱۶/۱۱ · Indexed 45 · کلیک 145 · نمره 68",
     "phone": "09905198600",
     "stack": "Next.js + CRM API"
   },
   "score": {
-    "overall": 66,
-    "label": "نمره سلامت SEO — بازبینی GSC 2026-11-15",
+    "overall": 68,
+    "label": "نمره سلامت SEO — audit+GSC 2026-11-16",
     "breakdown": [
       {
         "id": "technical",
@@ -37,25 +37,25 @@ window.SARVEMOSAVAR_SEO = {
         "id": "content",
         "name": "محتوا / E-E-A-T",
         "label": "محتوا / E-E-A-T",
-        "score": 76
+        "score": 75
       },
       {
         "id": "page",
         "name": "صفحه",
         "label": "صفحه",
-        "score": 58
+        "score": 55
       },
       {
         "id": "schema",
         "name": "اسکیما",
         "label": "اسکیما",
-        "score": 72
+        "score": 70
       },
       {
         "id": "local",
         "name": "لوکال SEO",
         "label": "لوکال SEO",
-        "score": 70
+        "score": 68
       }
     ]
   },
@@ -66,42 +66,66 @@ window.SARVEMOSAVAR_SEO = {
   "timeline": [
     {
       "phase": 0,
-      "label": "فیکس Critical",
+      "label": "فیکس Critical مهاجرت",
       "status": "done",
       "months": "آبان",
       "spanLabel": "هفته ۱–۲",
-      "dateRange": "آبان ۱۴۰۵"
+      "dateRange": "۲۰ آبان – اوایل آذر ۱۴۰۵"
     },
     {
       "phase": 1,
-      "label": "اسکیما + لوکال",
+      "label": "ایندکس‌پذیری + اسکیما/لوکال",
       "status": "active",
-      "months": "آبان",
-      "spanLabel": "هفته ۳–۴",
-      "dateRange": "آبان ۱۴۰۵"
+      "months": "آبان–آذر",
+      "spanLabel": "هفته ۳–۶",
+      "dateRange": "اواخر آبان – آذر ۱۴۰۵"
     },
     {
       "phase": 2,
-      "label": "محتوا و کلاستر",
+      "label": "Product schema + فرصت GSC",
       "status": "planned",
       "months": "آذر",
       "spanLabel": "ماه ۲",
       "dateRange": "آذر ۱۴۰۵"
+    },
+    {
+      "phase": 3,
+      "label": "کلاستر محتوا لیبل/UV-DTF",
+      "status": "planned",
+      "months": "دی",
+      "spanLabel": "ماه ۳",
+      "dateRange": "دی ۱۴۰۵"
+    },
+    {
+      "phase": 4,
+      "label": "CTR و رشد غیربرند",
+      "status": "planned",
+      "months": "بهمن",
+      "spanLabel": "ماه ۴",
+      "dateRange": "بهمن ۱۴۰۵"
+    },
+    {
+      "phase": 5,
+      "label": "بازبینی قرارداد + تثبیت",
+      "status": "planned",
+      "months": "اسفند",
+      "spanLabel": "ماه پایانی",
+      "dateRange": "اسفند ۱۴۰۵ تا ۲۰ اسفند"
     }
   ],
   "notes": [
-    "GSC live review 2026-11-15 17:01 — Indexed 30 / Not indexed 282 · کلیک ۱۳۲ · CTR ۹٫۹٪",
-    "خلاصه SEO در بلوک seoSummary داشبورد نوشته شد",
+    "Audit sync 2026-11-16 19:19 — 17 files",
+    "Full audit + GSC xlsx 2026-11-16 19:19 — نمره ۶۸ · Indexed 45 · کلیک 145",
+    "فازها به ۶ فاز تا ۲۰ اسفند گسترش یافت (۰ انجام‌شده · ۱ جاری · ۲–۵ برنامه‌ای)",
+    "خلاصه SEO از کنسول+اکسپورت ۱۶/۱۱ بازنویسی شد",
+    "CNI ۱۰۹ / Alternate ۷۰ / ۴۰۴ ۵۷ · Validate Started برای CNI و ۴۰۴",
     "sitemap Success ۲۷ · Validate Fix: ۴۰۴=Started · CNI۱۱۲=Started",
     "۶/۷ بلاگ on Google · reflective Request indexing · PrintShop/titles/links لایو",
-    "Audit sync 2026-11-15 16:56 — 17 files",
-    "Progress sync 2026-11-15 16:56 — PrintShop+titles+CNI links لایو؛ Validate Fix CNI ۱۱۲ شروع شد",
-    "GSC CNI: Validate Fix Started 15/11 · ۶/۷ بلاگ on Google · reflective Request indexing",
-    "خانه: description/H1 خدمت‌محور + title یکتا shop/blog/about/contact"
+    "Progress sync 2026-11-15 16:56 — PrintShop+titles+CNI links لایو؛ Validate Fix CNI ۱۱۲ شروع شد"
   ],
-  "updatedAt": "2026-11-15T17:01:26+03:30",
+  "updatedAt": "2026-11-16T19:19:54+03:30",
   "lastAuditSync": {
-    "at": "2026-11-15T16:56:28+03:30",
+    "at": "2026-11-16T19:19:54+03:30",
     "files": [
       "audit-data.json",
       "FULL-AUDIT-REPORT.md",
@@ -125,15 +149,15 @@ window.SARVEMOSAVAR_SEO = {
   },
   "auditHighlights": {
     "critical": [
-      "ایندکس فقط ۳۰ صفحه — پوشش هنوز کم است",
-      "۶۵ Alternate canonical (Validate نشده)",
-      "CTR ضعیف روی کوئری‌های غیربرند با نمایش بالا"
+      "۲۹۱ Not indexed (CNI ۱۰۹ · Alternate ۷۰ · ۴۰۴ ۵۷)",
+      "CTR نزدیک صفر روی لیبل dtf / خرید لیبل ژله‌ای / چاپ uv dtf اصفهان",
+      "رتبه میانگین ~۲۵٫۱"
     ],
     "quickWins": [
-      "✅ Validate Fix CNI ۱۱۲ + ۴۰۴ ۵۵ شروع شد",
-      "✅ sitemap Success ۲۷ URL",
-      "✅ PrintShop + title یکتا + لینک ۷ بلاگ لایو",
-      "⏭ Product schema / فرصت‌های GSC (uvdtf، لیبل ژله‌ای)"
+      "✅ ایندکس ۳۰→۴۵ · کلیک ۱۴۵ · WoW +۹۷٪",
+      "✅ Validate Fix ۴۰۴/CNI Started",
+      "✅ PrintShop + title یکتا لایو",
+      "⏭ Product schema + بهینه‌سازی فرصت‌های GSC"
     ]
   },
   "keywords": [],
@@ -234,38 +258,45 @@ window.SARVEMOSAVAR_SEO = {
     "scopeNote": "گزارش Search Console — کل دامنه sarvemosavar.ir",
     "pageUrl": "https://sarvemosavar.ir/",
     "page": "/",
-    "exportedAt": "2026-11-15",
-    "exportedAtFa": "2026/11/15",
+    "exportedAt": "2026-11-16",
+    "exportedAtFa": "2026/11/16",
     "dateFilter": "Last 3 months",
     "rangeLabel": "Last 3 months",
     "totals": {
-      "clicks": 132,
-      "impressions": 1330,
-      "ctr": "9.9%",
-      "position": 24.8,
-      "pages": 37,
-      "queries": 65
+      "clicks": 145,
+      "impressions": 1547,
+      "ctr": "9.37%",
+      "position": 25.09,
+      "pages": 45,
+      "queries": 84
     },
-    "clicks": 132,
-    "impressions": 1330,
-    "ctr": 0.099,
-    "avgPosition": 24.8,
-    "queries": 65,
-    "pages": 37,
+    "clicks": 145,
+    "impressions": 1547,
+    "ctr": 0.0937,
+    "avgPosition": 25.09,
+    "queries": 84,
+    "pages": 45,
     "topQueries": [
       {
         "kw": "سرو مصور",
-        "clicks": 41,
-        "impressions": 59,
-        "ctr": 0.6949,
-        "position": 1.08
+        "clicks": 58,
+        "impressions": 81,
+        "ctr": 0.716,
+        "position": 1.07
       },
       {
         "kw": "uvdtf",
+        "clicks": 3,
+        "impressions": 63,
+        "ctr": 0.047599999999999996,
+        "position": 9.49
+      },
+      {
+        "kw": "لیبل uv dtf",
         "clicks": 1,
-        "impressions": 52,
-        "ctr": 0.0192,
-        "position": 10.02
+        "impressions": 56,
+        "ctr": 0.0179,
+        "position": 17.55
       },
       {
         "kw": "لیبل ژله ای",
@@ -275,6 +306,13 @@ window.SARVEMOSAVAR_SEO = {
         "position": 24.66
       },
       {
+        "kw": "لیبل شفاف",
+        "clicks": 1,
+        "impressions": 13,
+        "ctr": 0.07690000000000001,
+        "position": 31.62
+      },
+      {
         "kw": "لیبل uv dtf چیست",
         "clicks": 1,
         "impressions": 11,
@@ -282,18 +320,11 @@ window.SARVEMOSAVAR_SEO = {
         "position": 7.45
       },
       {
-        "kw": "لیبل شفاف",
-        "clicks": 1,
-        "impressions": 5,
-        "ctr": 0.2,
-        "position": 21.4
-      },
-      {
         "kw": "لیبل dtf",
         "clicks": 0,
-        "impressions": 69,
+        "impressions": 77,
         "ctr": 0.0,
-        "position": 34.77
+        "position": 34.86
       },
       {
         "kw": "خرید لیبل ژله ای",
@@ -303,97 +334,104 @@ window.SARVEMOSAVAR_SEO = {
         "position": 20.6
       },
       {
-        "kw": "لیبل uv dtf",
-        "clicks": 0,
-        "impressions": 42,
-        "ctr": 0.0,
-        "position": 17.64
-      },
-      {
         "kw": "لیبل گچی",
         "clicks": 0,
-        "impressions": 41,
+        "impressions": 44,
         "ctr": 0.0,
-        "position": 30.41
-      },
-      {
-        "kw": "چاپ لیبل dtf",
-        "clicks": 0,
-        "impressions": 25,
-        "ctr": 0.0,
-        "position": 54.04
-      },
-      {
-        "kw": "لیبل برجسته uv dtf",
-        "clicks": 0,
-        "impressions": 24,
-        "ctr": 0.0,
-        "position": 23.12
-      },
-      {
-        "kw": "لیبل یو وی دی تی اف",
-        "clicks": 0,
-        "impressions": 23,
-        "ctr": 0.0,
-        "position": 40.83
+        "position": 30.23
       },
       {
         "kw": "چاپ uv dtf اصفهان",
         "clicks": 0,
-        "impressions": 23,
+        "impressions": 31,
         "ctr": 0.0,
-        "position": 47.09
+        "position": 42.0
+      },
+      {
+        "kw": "لیبل اموال",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0.0,
+        "position": 17.33
+      },
+      {
+        "kw": "لیبل برجسته uv dtf",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0.0,
+        "position": 23.33
       },
       {
         "kw": "لیبل uvdtf",
         "clicks": 0,
-        "impressions": 21,
+        "impressions": 30,
         "ctr": 0.0,
-        "position": 59.14
+        "position": 55.87
       },
       {
         "kw": "چاپ uvdtf",
         "clicks": 0,
-        "impressions": 20,
+        "impressions": 29,
         "ctr": 0.0,
-        "position": 48.0
+        "position": 43.9
+      },
+      {
+        "kw": "چاپ uv dtf",
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0.0,
+        "position": 53.07
       }
     ],
     "topPages": [
       {
         "page": "/",
-        "clicks": 107,
-        "impressions": 199,
-        "ctr": 0.5377000000000001,
-        "position": 9.97
+        "clicks": 126,
+        "impressions": 231,
+        "ctr": 0.5455,
+        "position": 9.37
+      },
+      {
+        "page": "/blog/uvdtf-machine/",
+        "clicks": 5,
+        "impressions": 214,
+        "ctr": 0.023399999999999997,
+        "position": 36.73
       },
       {
         "page": "/about-us/",
         "clicks": 4,
-        "impressions": 159,
-        "ctr": 0.0252,
-        "position": 2.09
+        "impressions": 179,
+        "ctr": 0.0223,
+        "position": 2.03
       },
       {
         "page": "/label-form/",
         "clicks": 4,
-        "impressions": 119,
-        "ctr": 0.0336,
-        "position": 1.97
+        "impressions": 146,
+        "ctr": 0.0274,
+        "position": 1.93
       },
       {
         "page": "/blog/pvc/",
         "clicks": 4,
-        "impressions": 76,
-        "ctr": 0.0526,
-        "position": 10.57
+        "impressions": 88,
+        "ctr": 0.0455,
+        "position": 12.77
+      },
+      {
+        "page": "/blog/uv-dtf/",
+        "clicks": 3,
+        "impressions": 381,
+        "ctr": 0.0079,
+        "position": 27.82
       },
       {
         "page": "/user_area/",
         "clicks": 3,
-        "impressions": 132,
-        "ctr": 0.0227,
-        "position": 1.54
+        "impressions": 156,
+        "ctr": 0.0192,
+        "position": 1.47
       },
       {
         "page": "/shop/page/3/",
@@ -403,32 +441,25 @@ window.SARVEMOSAVAR_SEO = {
         "position": 1.55
       },
       {
-        "page": "/blog/uv-dtf/",
-        "clicks": 2,
-        "impressions": 281,
-        "ctr": 0.0070999999999999995,
-        "position": 26.78
-      },
-      {
-        "page": "/blog/uvdtf-machine/",
-        "clicks": 2,
-        "impressions": 138,
-        "ctr": 0.014499999999999999,
-        "position": 30.5
-      },
-      {
         "page": "/product-category/label/page/2/",
         "clicks": 2,
-        "impressions": 95,
-        "ctr": 0.021099999999999997,
-        "position": 5.02
+        "impressions": 115,
+        "ctr": 0.0174,
+        "position": 5.1
       },
       {
         "page": "/blog/transparent-pvc-label/",
         "clicks": 2,
-        "impressions": 17,
-        "ctr": 0.1176,
-        "position": 26.65
+        "impressions": 57,
+        "ctr": 0.0351,
+        "position": 30.3
+      },
+      {
+        "page": "/blog/void-label/",
+        "clicks": 2,
+        "impressions": 27,
+        "ctr": 0.0741,
+        "position": 5.93
       },
       {
         "page": "/product/لیبل-ژله-ای/",
@@ -436,22 +467,15 @@ window.SARVEMOSAVAR_SEO = {
         "impressions": 153,
         "ctr": 0.006500000000000001,
         "position": 22.58
-      },
-      {
-        "page": "/product-category/outdoor/",
-        "clicks": 1,
-        "impressions": 70,
-        "ctr": 0.0143,
-        "position": 4.29
       }
     ],
     "opportunities": [
       {
         "kw": "لیبل dtf",
         "clicks": 0,
-        "impressions": 69,
+        "impressions": 77,
         "ctr": 0.0,
-        "position": 34.77,
+        "position": 34.86,
         "note": "CTR پایین"
       },
       {
@@ -464,10 +488,18 @@ window.SARVEMOSAVAR_SEO = {
       },
       {
         "kw": "uvdtf",
+        "clicks": 3,
+        "impressions": 63,
+        "ctr": 0.047599999999999996,
+        "position": 9.49,
+        "note": "CTR پایین"
+      },
+      {
+        "kw": "لیبل uv dtf",
         "clicks": 1,
-        "impressions": 52,
-        "ctr": 0.0192,
-        "position": 10.02,
+        "impressions": 56,
+        "ctr": 0.0179,
+        "position": 17.55,
         "note": "CTR پایین"
       },
       {
@@ -479,169 +511,139 @@ window.SARVEMOSAVAR_SEO = {
         "note": "CTR پایین"
       },
       {
-        "kw": "لیبل uv dtf",
-        "clicks": 0,
-        "impressions": 42,
-        "ctr": 0.0,
-        "position": 17.64,
-        "note": "CTR پایین"
-      },
-      {
         "kw": "لیبل گچی",
         "clicks": 0,
-        "impressions": 41,
+        "impressions": 44,
         "ctr": 0.0,
-        "position": 30.41,
+        "position": 30.23,
         "note": "CTR پایین"
       },
       {
-        "kw": "چاپ لیبل dtf",
+        "kw": "چاپ uv dtf اصفهان",
         "clicks": 0,
-        "impressions": 25,
+        "impressions": 31,
         "ctr": 0.0,
-        "position": 54.04,
+        "position": 42.0,
+        "note": "CTR پایین"
+      },
+      {
+        "kw": "لیبل اموال",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0.0,
+        "position": 17.33,
         "note": "CTR پایین"
       },
       {
         "kw": "لیبل برجسته uv dtf",
         "clicks": 0,
-        "impressions": 24,
+        "impressions": 30,
         "ctr": 0.0,
-        "position": 23.12,
-        "note": "CTR پایین"
-      },
-      {
-        "kw": "لیبل یو وی دی تی اف",
-        "clicks": 0,
-        "impressions": 23,
-        "ctr": 0.0,
-        "position": 40.83,
-        "note": "CTR پایین"
-      },
-      {
-        "kw": "چاپ uv dtf اصفهان",
-        "clicks": 0,
-        "impressions": 23,
-        "ctr": 0.0,
-        "position": 47.09,
+        "position": 23.33,
         "note": "CTR پایین"
       },
       {
         "kw": "لیبل uvdtf",
         "clicks": 0,
-        "impressions": 21,
+        "impressions": 30,
         "ctr": 0.0,
-        "position": 59.14,
+        "position": 55.87,
         "note": "CTR پایین"
       },
       {
         "kw": "چاپ uvdtf",
         "clicks": 0,
-        "impressions": 20,
+        "impressions": 29,
         "ctr": 0.0,
-        "position": 48.0,
+        "position": 43.9,
+        "note": "CTR پایین"
+      },
+      {
+        "kw": "چاپ uv dtf",
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0.0,
+        "position": 53.07,
+        "note": "CTR پایین"
+      },
+      {
+        "kw": "چاپ لیبل dtf",
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0.0,
+        "position": 54.66,
+        "note": "CTR پایین"
+      },
+      {
+        "kw": "چاپ لیبل uv dtf",
+        "clicks": 0,
+        "impressions": 28,
+        "ctr": 0.0,
+        "position": 68.21,
+        "note": "CTR پایین"
+      },
+      {
+        "kw": "لیبل یو وی دی تی اف",
+        "clicks": 0,
+        "impressions": 27,
+        "ctr": 0.0,
+        "position": 46.26,
         "note": "CTR پایین"
       }
     ],
     "insights": [
-      "بازهٔ گزارش: Last 3 months · اکسپورت 2026-11-14",
-      "جمع کلیک ۱۲۰ · نمایش ۱,۱۰۳ · CTR 10.88% · رتبه میانگین 24.67",
-      "موبایل غالب است (42 کلیک)",
-      "کلیک برند «سرو مصور» در Top queries ≈ 41",
-      "تعداد کوئری در شیت: 65 · صفحات: 37",
-      "12 فرصت CTR/رتبه در پنل فرصت‌ها"
+      "بازهٔ گزارش: Last 3 months · اکسپورت 2026-11-16",
+      "جمع کلیک ۱۴۵ · نمایش ۱,۵۴۷ · CTR 9.37% · رتبه میانگین 25.09",
+      "موبایل غالب است (52 کلیک)",
+      "کلیک برند «سرو مصور» در Top queries ≈ 58",
+      "تعداد کوئری در شیت: 84 · صفحات: 45",
+      "15 فرصت CTR/رتبه در پنل فرصت‌ها"
     ],
     "devices": [
       {
         "device": "Desktop",
-        "clicks": 86,
-        "impressions": 509
+        "clicks": 93,
+        "impressions": 610,
+        "ctr": 0.1525,
+        "position": 25.03
       },
       {
         "device": "Mobile",
-        "clicks": 46,
-        "impressions": 819
+        "clicks": 52,
+        "impressions": 935,
+        "ctr": 0.0556,
+        "position": 25.17
       },
       {
         "device": "Tablet",
         "clicks": 0,
-        "impressions": 2
-      }
-    ],
-    "topQueriesLive": [
-      {
-        "kw": "سرو مصور",
-        "clicks": 51,
-        "impressions": 71
-      },
-      {
-        "kw": "uvdtf",
-        "clicks": 1,
-        "impressions": 56
-      },
-      {
-        "kw": "لیبل ژله ای",
-        "clicks": 1,
-        "impressions": 50
-      },
-      {
-        "kw": "لیبل uv dtf چیست",
-        "clicks": 1,
-        "impressions": 11
-      },
-      {
-        "kw": "لیبل شفاف",
-        "clicks": 1,
-        "impressions": 9
-      },
-      {
-        "kw": "لیبل dtf",
-        "clicks": 0,
-        "impressions": 75
-      },
-      {
-        "kw": "خرید لیبل ژله ای",
-        "clicks": 0,
-        "impressions": 68
-      },
-      {
-        "kw": "لیبل uv dtf",
-        "clicks": 0,
-        "impressions": 49
-      },
-      {
-        "kw": "لیبل گچی",
-        "clicks": 0,
-        "impressions": 42
-      },
-      {
-        "kw": "چاپ uv dtf اصفهان",
-        "clicks": 0,
-        "impressions": 29
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 7.0
       }
     ]
   },
   "gscWow": {
-    "exportedAt": "2026-11-14",
+    "exportedAt": "2026-11-16",
     "scopeNote": "مقایسه ۷ روز آخر Chart در برابر ۷ روز قبل (همان export)",
-    "currentRange": "2026-11-05 → 2026-11-11",
-    "previousRange": "2026-10-29 → 2026-11-04",
-    "exportedAtFa": "2026/11/14",
+    "currentRange": "2026-11-08 → 2026-11-14",
+    "previousRange": "2026-11-01 → 2026-11-07",
+    "exportedAtFa": "2026/11/16",
     "totals": {
-      "clicksCur": 57,
-      "clicksPrev": 19,
-      "clicksDelta": 38,
-      "clicksPct": 200.0,
-      "impsCur": 423,
-      "impsPrev": 296,
-      "impsDelta": 127,
-      "impsPct": 42.9
+      "clicksCur": 65,
+      "clicksPrev": 33,
+      "clicksDelta": 32,
+      "clicksPct": 97.0,
+      "impsCur": 757,
+      "impsPrev": 281,
+      "impsDelta": 476,
+      "impsPct": 169.4
     },
     "pageLosers": [],
     "queryLosers": [],
     "insights": [
-      "کلیک ۷روز: 57 در برابر 19 (200.0%)",
-      "نمایش ۷روز: 423 در برابر 296 (42.9%)"
+      "کلیک ۷روز: 65 در برابر 33 (97.0%)",
+      "نمایش ۷روز: 757 در برابر 281 (169.4%)"
     ]
   },
   "urgentActions": [
@@ -766,40 +768,46 @@ window.SARVEMOSAVAR_SEO = {
     }
   ],
   "gscIndexing": {
-    "checkedAt": "2026-11-15T17:01:26+03:30",
-    "lastUpdateGsc": "2026-11-09",
-    "indexed": 30,
-    "notIndexed": 282,
+    "checkedAt": "2026-11-16T19:19:53+03:30",
+    "lastUpdateGsc": "2026-11-13",
+    "indexed": 45,
+    "notIndexed": 291,
     "reasons": [
       {
         "reason": "Alternate page with proper canonical tag",
-        "pages": 65,
-        "source": "Website",
-        "validation": "Not Started"
+        "pages": 70,
+        "validation": "Not Started",
+        "source": "Website"
       },
       {
         "reason": "Excluded by noindex tag",
-        "pages": 26,
-        "source": "Website",
-        "validation": "Not Started"
+        "pages": 27,
+        "validation": "Not Started",
+        "source": "Website"
       },
       {
         "reason": "Page with redirect",
         "pages": 24,
-        "source": "Website",
-        "validation": "Not Started"
+        "validation": "Not Started",
+        "source": "Website"
+      },
+      {
+        "reason": "Discovered - currently not indexed",
+        "pages": 4,
+        "validation": "Not Started",
+        "source": "Google systems"
       },
       {
         "reason": "Not found (404)",
-        "pages": 55,
-        "source": "Website",
-        "validation": "Started"
+        "pages": 57,
+        "validation": "Started",
+        "source": "Website"
       },
       {
         "reason": "Crawled - currently not indexed",
-        "pages": 112,
-        "source": "Google systems",
-        "validation": "Started (15/11)"
+        "pages": 109,
+        "validation": "Started",
+        "source": "Google systems"
       }
     ],
     "notFoundFirstDetected": "2026-10-17",
@@ -872,7 +880,7 @@ window.SARVEMOSAVAR_SEO = {
           "where": "SEO/05-tracking/redirect-map-sarvemosavar.csv",
           "why": "بدون مپینگ ریدایرکت کورکورانه خطرناک است",
           "priority": "critical",
-          "done": false
+          "done": true
         },
         {
           "id": "p0-301-woo-product",
@@ -943,12 +951,12 @@ window.SARVEMOSAVAR_SEO = {
         {
           "id": "c0-map",
           "label": "جدول مپینگ ۴۰۴ آماده شد",
-          "done": false
+          "done": true
         },
         {
           "id": "c0-301",
           "label": "ریدایرکت‌های /product و /product-category روی سرور live است",
-          "done": false
+          "done": true
         },
         {
           "id": "c0-canon",
@@ -970,8 +978,8 @@ window.SARVEMOSAVAR_SEO = {
     "1": {
       "title": "فاز ۱ — ایندکس‌پذیری و اسکیما/لوکال",
       "status": "active",
-      "period": "آذر ۱۴۰۵",
-      "goal": "کاهش Crawled-not-indexed و تقویت سیگنال لوکال",
+      "period": "اواخر آبان تا آذر ۱۴۰۵",
+      "goal": "رشد ایندکس، بستن CNI/Alternate، تقویت لوکال و اسکیما",
       "actions": [
         {
           "id": "p1-cni-internal-links",
@@ -1033,32 +1041,142 @@ window.SARVEMOSAVAR_SEO = {
       ]
     },
     "2": {
-      "title": "فاز ۲ — محتوا و رشد GSC",
+      "title": "فاز ۲ — Product schema + فرصت‌های GSC",
       "status": "planned",
-      "period": "دی–اسفند ۱۴۰۵",
-      "goal": "کلاستر لیبل/چاپ و رشد کوئری‌های فرصت",
+      "period": "آذر ۱۴۰۵",
+      "goal": "تکمیل اسکیمای محصول و جذب کلیک از کوئری‌های غیربرند",
+      "summary": "uvdtf / لیبل ژله‌ای / لیبل dtf نمایش دارند ولی CTR ضعیف است",
       "actions": [
         {
-          "id": "p2-cluster",
-          "text": "انتشار کلاستر محتوای لیبل (PVC، UV-DTF، Void، شبرنگ، اموال)",
-          "where": "بلاگ",
-          "why": "پوشش فعلی sitemap محدود است",
-          "priority": "medium",
+          "id": "p2-product-schema",
+          "text": "Product/Offer + Breadcrumb روی همه PDPها",
+          "where": "فروانت",
+          "why": "Shopping/Breadcrumbs در GSC فعال است",
+          "priority": "high",
           "done": false
         },
         {
-          "id": "p2-ctr",
-          "text": "بهبود CTR کوئری‌های برند و محصول از پنل فرصت GSC",
-          "where": "title/desc",
-          "why": "CTR کلی ۱۰٫۸۸٪ ولی رتبه میانگین ضعیف",
+          "id": "p2-gsc-opps",
+          "text": "بهبود title/desc و داخلی‌لینک برای لیبل dtf، خرید لیبل ژله‌ای، uvdtf",
+          "where": "محتوا + PDP",
+          "why": "نمایش بالا بدون کلیک",
+          "priority": "high",
+          "done": false
+        },
+        {
+          "id": "p2-alternate-audit",
+          "text": "ممیزی ۷۰ Alternate canonical و ۴ Discovered-CNI",
+          "where": "GSC",
+          "why": "سطل‌های باز Validate",
           "priority": "medium",
           "done": false
         }
       ],
       "checklist": [
         {
-          "id": "c2-cluster",
-          "label": "حداقل ۸ مقاله کلاستر منتشر شد",
+          "id": "c2-schema",
+          "label": "Product schema روی ≥۱۰ PDP",
+          "done": false
+        },
+        {
+          "id": "c2-ctr",
+          "label": "حداقل ۳ فرصت GSC CTR بهبود",
+          "done": false
+        }
+      ]
+    },
+    "3": {
+      "title": "فاز ۳ — کلاستر محتوا لیبل و چاپ",
+      "status": "planned",
+      "period": "دی ۱۴۰۵",
+      "goal": "پوشش کلاستر PVC / UV-DTF / Void / شبرنگ / اموال",
+      "summary": "تقویت E-E-A-T و لینک داخلی به PDPها",
+      "actions": [
+        {
+          "id": "p3-cluster",
+          "text": "انتشار/تقویت ۸+ مقاله کلاستر لیبل",
+          "where": "بلاگ",
+          "why": "رشد ایندکس و کوئری‌های اطلاعاتی",
+          "priority": "high",
+          "done": false
+        },
+        {
+          "id": "p3-internal",
+          "text": "لینک متقابل مقاله↔PDP برای کوئری‌های فرصت",
+          "where": "محتوا",
+          "why": "کاهش CNI واقعی بلاگ/محصول",
+          "priority": "medium",
+          "done": false
+        }
+      ],
+      "checklist": [
+        {
+          "id": "c3-cluster",
+          "label": "۸ مقاله کلاستر منتشر/بهینه",
+          "done": false
+        }
+      ]
+    },
+    "4": {
+      "title": "فاز ۴ — CTR و رشد غیربرند",
+      "status": "planned",
+      "period": "بهمن ۱۴۰۵",
+      "goal": "کاهش وابستگی به برند و بهبود رتبه میانگین",
+      "summary": "تمرکز روی کوئری‌های تجاری با نمایش بالا",
+      "actions": [
+        {
+          "id": "p4-ctr",
+          "text": "بازنویسی title/description صفحات هدف فرصت‌ها",
+          "where": "meta",
+          "why": "CTR غیربرند نزدیک صفر است",
+          "priority": "high",
+          "done": false
+        },
+        {
+          "id": "p4-lcp",
+          "text": "بهینه‌سازی LCP خانه بعد از بنر دائمی",
+          "where": "Performance",
+          "why": "تجربه و سیگنال کیفیت",
+          "priority": "medium",
+          "done": false
+        }
+      ],
+      "checklist": [
+        {
+          "id": "c4-nonbrand",
+          "label": "≥۳۰٪ کلیک از کوئری غیربرند",
+          "done": false
+        }
+      ]
+    },
+    "5": {
+      "title": "فاز ۵ — بازبینی قرارداد و تثبیت",
+      "status": "planned",
+      "period": "اسفند ۱۴۰۵ (تا ۲۰ اسفند)",
+      "goal": "گزارش پایانی، بستن Validateها، تثبیت ایندکس",
+      "summary": "اندازه‌گیری رشد Indexed/کلیک نسبت به آبان",
+      "actions": [
+        {
+          "id": "p5-report",
+          "text": "گزارش نهایی ۴ماهه برای کارفرما + مقایسه با بیس‌لاین آبان",
+          "where": "داشبورد/GSC",
+          "why": "پایان قرارداد ۲۰ اسفند",
+          "priority": "high",
+          "done": false
+        },
+        {
+          "id": "p5-validate",
+          "text": "بستن/مستندسازی وضعیت Validate Fixها",
+          "where": "GSC",
+          "why": "CNI و ۴۰۴ باید روند نزولی داشته باشند",
+          "priority": "medium",
+          "done": false
+        }
+      ],
+      "checklist": [
+        {
+          "id": "c5-final",
+          "label": "گزارش نهایی و آرشیو audit",
           "done": false
         }
       ]
@@ -1080,40 +1198,41 @@ window.SARVEMOSAVAR_SEO = {
     ]
   },
   "seoSummary": {
-    "status": "فاز ۱ · پایدارِ در حال بهبود",
-    "checkedAt": "2026-11-15T17:01:26+03:30",
-    "checkedAtFa": "2026/11/15 17:01",
-    "source": "Google Search Console live review",
-    "verdict": "ایندکس هنوز باریک است (۳۰ صفحه) ولی سیگنال‌های حیاتی مهاجرت درست شده‌اند: sitemap Success ۲۷ URL، Validate Fix برای ۵۵×404 و ۱۱۲×CNI شروع شده، ۶ از ۷ بلاگ راهنما روی گوگل هستند، و خانه/فروشگاه از نظر meta و PrintShop لایو آماده‌اند. گلوگاه بعدی: افزایش پوشش ایندکس محصول/بلاگ و گرفتن کلیک از کوئری‌های غیربرند (uvdtf، لیبل ژله‌ای، …).",
-    "healthScore": 66,
-    "gscExport": "live-2026-11-15",
-    "range": "Last 3 months (تا حدود ۱۱/۱۳)",
+    "status": "فاز ۱ · ایندکس در حال رشد",
+    "checkedAt": "2026-11-16T19:19:53+03:30",
+    "checkedAtFa": "2026/11/16 19:19",
+    "source": "GSC xlsx 2026-11-16 + live Pages indexing + full audit",
+    "verdict": "ایندکس از ۳۰ به ۴۵ صفحه رسید و کلیک ۳ماه ۱۴۵ شد (WoW کلیک ۷روز +۹۷٪). فاز ۰ مهاجرت/۴۰۴/خانه انجام شده. هنوز ۲۹۱ Not indexed داریم (CNI ۱۰۹ + Alternate ۷۰ + ۴۰۴ ۵۷). اولویت: تکمیل Product schema، گرفتن CTR از فرصت‌های uvdtf/لیبل ژله‌ای، و پیگیری Validate Fix.",
+    "healthScore": 68,
+    "gscExport": "xlsx-2026-11-16",
+    "range": "Last 3 months (تا ۱۴/۱۱)",
     "gsc": {
-      "clicks": 132,
-      "impressions": 1330,
-      "ctr": "9.9%",
-      "avgPosition": 24.8,
-      "mobileShare": "۳۵٪ کلیک / ۶۲٪ نمایش",
+      "clicks": 145,
+      "impressions": 1547,
+      "ctr": "9.37%",
+      "avgPosition": 25.09,
+      "mobileShare": "—",
       "wow7d": {
-        "clicksPct": null
+        "clicksPct": 97.0,
+        "impsPct": 169.4
       },
       "vsPrevExport": {
-        "note": "نسبت به اکسپورت ۱۴/۱۱: کلیک ۱۲۰→۱۳۲ · نمایش ۱۱۰۳→۱۳۳۰ · CTR ۱۰٫۸۸٪→۹٫۹٪ · رتبه ۲۴٫۶۷→۲۴٫۸"
+        "note": "نسبت به ۱۵/۱۱ لایو: کلیک ۱۳۲→۱۴۵ · نمایش ۱۳۳۰→۱۵۴۷ · ایندکس ۳۰→۴۵ · CTR ۹٫۹٪→۹٫۳۷٪"
       },
       "indexing": {
-        "lastUpdateGsc": "2026-11-09",
-        "indexed": 30,
-        "notIndexed": 282,
+        "lastUpdateGsc": "2026-11-13",
+        "indexed": 45,
+        "notIndexed": 291,
         "reasons": [
           {
             "reason": "Alternate page with proper canonical tag",
-            "pages": 65,
+            "pages": 70,
             "validation": "Not Started",
             "source": "Website"
           },
           {
             "reason": "Excluded by noindex tag",
-            "pages": 26,
+            "pages": 27,
             "validation": "Not Started",
             "source": "Website"
           },
@@ -1124,15 +1243,21 @@ window.SARVEMOSAVAR_SEO = {
             "source": "Website"
           },
           {
+            "reason": "Discovered - currently not indexed",
+            "pages": 4,
+            "validation": "Not Started",
+            "source": "Google systems"
+          },
+          {
             "reason": "Not found (404)",
-            "pages": 55,
+            "pages": 57,
             "validation": "Started",
             "source": "Website"
           },
           {
             "reason": "Crawled - currently not indexed",
-            "pages": 112,
-            "validation": "Started (15/11)",
+            "pages": 109,
+            "validation": "Started",
             "source": "Google systems"
           }
         ]
@@ -1144,31 +1269,19 @@ window.SARVEMOSAVAR_SEO = {
         "lastRead": "2026-11-14",
         "discoveredPages": 27
       },
-      "devices": [
-        {
-          "device": "Desktop",
-          "clicks": 86,
-          "impressions": 509
-        },
-        {
-          "device": "Mobile",
-          "clicks": 46,
-          "impressions": 819
-        },
-        {
-          "device": "Tablet",
-          "clicks": 0,
-          "impressions": 2
-        }
-      ],
       "topQueries": [
         {
           "kw": "سرو مصور",
-          "clicks": 51,
-          "impressions": 71
+          "clicks": 58,
+          "impressions": 81
         },
         {
           "kw": "uvdtf",
+          "clicks": 3,
+          "impressions": 63
+        },
+        {
+          "kw": "لیبل uv dtf",
           "clicks": 1,
           "impressions": 56
         },
@@ -1178,19 +1291,19 @@ window.SARVEMOSAVAR_SEO = {
           "impressions": 50
         },
         {
+          "kw": "لیبل شفاف",
+          "clicks": 1,
+          "impressions": 13
+        },
+        {
           "kw": "لیبل uv dtf چیست",
           "clicks": 1,
           "impressions": 11
         },
         {
-          "kw": "لیبل شفاف",
-          "clicks": 1,
-          "impressions": 9
-        },
-        {
           "kw": "لیبل dtf",
           "clicks": 0,
-          "impressions": 75
+          "impressions": 77
         },
         {
           "kw": "خرید لیبل ژله ای",
@@ -1198,87 +1311,94 @@ window.SARVEMOSAVAR_SEO = {
           "impressions": 68
         },
         {
-          "kw": "لیبل uv dtf",
-          "clicks": 0,
-          "impressions": 49
-        },
-        {
           "kw": "لیبل گچی",
           "clicks": 0,
-          "impressions": 42
+          "impressions": 44
         },
         {
           "kw": "چاپ uv dtf اصفهان",
           "clicks": 0,
-          "impressions": 29
+          "impressions": 31
         }
       ],
-      "blogIndexSample": {
-        "onGoogle": [
-          "white-pvc-label",
-          "transparent-pvc-label",
-          "frosted-pvc-label",
-          "dtf-printing",
-          "property-label",
-          "void-label"
-        ],
-        "requestedAgain": [
-          "reflective-label"
-        ],
-        "note": "reflective هنوز Alternate canonical در GSC؛ canonical لایو بدون slash درست است"
-      }
+      "opportunities": [
+        {
+          "kw": "لیبل dtf",
+          "impressions": 77,
+          "position": 34.86
+        },
+        {
+          "kw": "خرید لیبل ژله ای",
+          "impressions": 68,
+          "position": 20.6
+        },
+        {
+          "kw": "uvdtf",
+          "impressions": 63,
+          "position": 9.49
+        },
+        {
+          "kw": "لیبل uv dtf",
+          "impressions": 56,
+          "position": 17.55
+        },
+        {
+          "kw": "چاپ uv dtf اصفهان",
+          "impressions": 31,
+          "position": 42.0
+        }
+      ]
     },
     "strengths": [
-      "sitemap.xml = Success · ۲۷ صفحه کشف‌شده (۱۴/۱۱)",
-      "Validate Fix برای Not found (۵۵) و CNI (۱۱۲) هر دو Started",
-      "۶/۷ بلاگ راهنما «URL is on Google»",
-      "خانه: description/H1 خدمت‌محور + PrintShop (تلفن/آدرس/geo) لایو",
-      "title یکتا برای shop/blog/about/contact + لینک SSR هفت راهنما از خانه/فروشگاه",
-      "برند «سرو مصور» قوی است (۵۱ کلیک از ۷۱ نمایش)"
+      "ایندکس ۳۰→۴۵ صفحه (آپدیت GSC ۱۳/۱۱)",
+      "کلیک ۳ماه ۱۴۵ · WoW ۷روز کلیک +۹۷٪ و نمایش +۱۶۹٪",
+      "sitemap Success ۲۷ URL",
+      "Validate Fix برای ۴۰۴ و CNI Started",
+      "PrintShop + title یکتا صفحات کلیدی لایو",
+      "برند «سرو مصور» CTR ~۷۲٪"
     ],
     "risks": [
-      "فقط ۳۰ صفحه ایندکس در برابر ۲۸۲ Not indexed — پوشش هنوز کم است",
-      "۶۵ Alternate canonical هنوز Validate نشده",
-      "CTR غیربرند ضعیف: لیبل dtf / خرید لیبل ژله‌ای / چاپ uv dtf اصفهان نمایش دارند ولی کلیک ≈۰",
-      "رتبه میانگین ~۲۴٫۸ — فاصله تا صفحهٔ اول زیاد است",
-      "LCP خانه (~۶s) با بنر موقتی — بعد از بنر دائمی",
-      "داده‌های Indexing آخرین آپدیت ۹/۱۱؛ تغییرات جدید هنوز در نمودار منعکس نشده"
+      "۲۹۱ Not indexed — CNI ۱۰۹ + Alternate ۷۰ + ۴۰۴ ۵۷",
+      "CTR ضعیف روی فرصت‌های غیربرند (لیبل dtf، خرید لیبل ژله‌ای، …)",
+      "رتبه میانگین ~۲۵٫۱ — فاصله تا صفحه ۱",
+      "LCP خانه با بنر موقتی هنوز بالاست",
+      "نمره ممیزی خودکار صفحه هنوز ۳۷ (باید با meta لایو هم‌تراز شود)"
     ],
     "tasks": [
       {
-        "text": "پیگیری Validate Fix برای CNI ۱۱۲ و ۴۰۴ ۵۵ — بعد از آپدیت GSC عدد Affected را چک کنید",
-        "area": "GSC · Pages",
+        "text": "پیگیری Validate Fix CNI/۴۰۴ تا Affected پایین بیاید",
+        "area": "GSC Pages",
         "agent": "seo-google",
         "priority": "high",
         "canAuto": false
       },
       {
-        "text": "Test live URL + Request again برای reflective-label تا Alternate canonical پاک شود",
-        "area": "GSC · URL Inspection",
-        "agent": "seo-google",
-        "priority": "high",
-        "canAuto": false
-      },
-      {
-        "text": "تکمیل Product/Offer + Breadcrumb روی PDPها و تقویت کوئری‌های فرصت (uvdtf، لیبل ژله‌ای، …)",
-        "area": "فروانت / محتوا",
+        "text": "Product/Offer + Breadcrumb روی همه PDPها",
+        "area": "فروانت",
         "agent": "seo-schema",
         "priority": "high",
         "canAuto": true
       },
       {
-        "text": "بهینه‌سازی LCP بعد از جایگزینی بنر موقتی خانه",
+        "text": "بهبود CTR فرصت‌ها: لیبل dtf، خرید لیبل ژله‌ای، uvdtf، چاپ uv dtf اصفهان",
+        "area": "محتوا/title",
+        "agent": "seo-content",
+        "priority": "high",
+        "canAuto": true
+      },
+      {
+        "text": "بررسی سطل Alternate canonical (۷۰) و Discovered CNI (۴)",
+        "area": "GSC Indexing",
+        "agent": "seo-technical",
+        "priority": "medium",
+        "canAuto": false
+      },
+      {
+        "text": "LCP خانه بعد از بنر دائمی",
         "area": "Performance",
         "agent": "seo-performance",
         "priority": "medium",
         "canAuto": true
-      },
-      {
-        "text": "بررسی سطل Alternate canonical (۶۵) — جدا کردن URLهای درست از slash/duplicate",
-        "area": "GSC · Indexing",
-        "agent": "seo-technical",
-        "priority": "medium",
-        "canAuto": false
       }
     ]
   }
